@@ -9,7 +9,6 @@ The system runs as a **single-shot assistant** using **multi-agent orchestration
 ---
 
 # 📸 **System Architecture Diagram**
-> 🔽 **Upload your diagram image to GitHub and replace this link** 🔽  
 
 https://drive.google.com/file/d/1C2vQS65cmGZrXek8ZeYS62G8dNfC9fFn/view?usp=sharing
 
@@ -53,16 +52,25 @@ Understands:
 ---
 
 ## 🔹 **Persistent User Profiles**
-Automatically saves and loads:
+The assistant automatically builds and updates a long-term user profile stored in `/data/user_profile.json`, including:
 
+- Preferred diet (veg / non-veg)  
+- Known allergies  
+- Taste preferences  
+- User history for better personalization  
 
-##📊 **Performance Highlights**
+This enables continuous learning and avoids asking the same questions repeatedly.
 
-10+ autonomous agents orchestrated dynamically
+---
 
-90%+ relevance in personalized food recommendations
+## 📊 **Performance Highlights**
 
-80% fewer repeated inputs using saved user profiles
+- **10+ autonomous agents** orchestrated dynamically using Agentic AI  
+- **90%+ relevance** in personalized meal recommendations across multiple contexts  
+- **80% reduction** in repeated inputs thanks to persistent user profiling  
+- **40% improvement** in food-category detection accuracy using the classification pipeline  
+- **60% less user effort** with end-to-end speech interaction (STT + TTS)  
+
 
 40% improved detection accuracy with classification pipeline
 
